@@ -27,12 +27,37 @@
 
 h1 {
     color: #f6bd60;
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #0a1045;
 }
 
 #main {
     display: flex;
+    margin: 3rem 1rem;
 }
 
 #left-side, #right-side {
-    width: 50%;
+    width: 50%;    
+}
+
+#left-side {
+    padding-right: 3rem;
+}
+
+#right-side {
+    align-self: center;
+    padding-top: 3rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
