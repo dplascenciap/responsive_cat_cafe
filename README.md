@@ -3,7 +3,7 @@ Responsive Cat Cafe Website
 
 This is an attempt to create a responsive website which main template can be 
 found at:
-https://www.figma.com/file/TyRf0K7bhO1Y4Ha3svQu1g/Cat-Cafe-Landing-Page?node-id=10%3A55
+https://www.figma.com/file/k305a2s5Jlu73FGOPsM8UX/Responsive-Happy-Cat-Cafe?node-id=0%3A1
 
 This website should be displayed in both a PC a mobile screen.
 
