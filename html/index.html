@@ -6,49 +6,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Cat Cafe Landing Website</title>
-    <!--Adding Google Fonts-->
+    <!--Adding Google Font "Inter"-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="navigation-bar">
-        <div id="title-bar">
-            <button>Happy Cat Cafe</button>
-        </div>        
-        <div class="nav-items">
-            <button>About Us</button>
-            <button>Menu</button>
-            <button>View Cats</button>
-            <button>Contact Us</button>
+    <div class="container">
+        <div class="navigation-bar">
+            <div id="title-bar">
+                <button>Happy Cat Cafe</button>
+            </div>
+            <div class="nav-items">
+                <button>About Us</button>
+                <button>Menu</button>
+                <button>View Cats</button>
+                <button>Contact Us</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left-side">
+                <h1>About Us</h1>
+                <p>
+                    About Us
+                    Welcome to the Happy Cat Cafe!
+                    We rescue cats from shelters and make
+                    them available for adoption here.
+                    Come join us for afternoon tea and meet
+                    some "fur-ends" - you might even take
+                    one
+                </p>
+            </div>
+            <div class="right-side">
+                <!--Inserting image from URL-->
+                <!-- <img src="https://cdn.pixabay.com/photo/2017/05/31/16/24/cat-2360863_960_720.jpg" alt="cute cat posing"> -->
+                <!--Inserting image from local path-->
+                <img src="../assets/index_cat_cafe.png" alt="cute cat posing" id="img1">
+                <img src="../assets/pink_square.png" alt="background pink square" id="img2">
+            </div>
+        </div>
+        <div class="footer">
+            <p>Email: happycatcafe@gmail.com</p>
+            <button>Twitter</button>
+            <button>Instagram</button>
         </div>
     </div>
-    <div id="main">
-        <div id="left-side">
-            <h1>About Us</h1>
-            <p>
-                About Us
-                Welcome to the Happy Cat Cafe!
-                We rescue cats from shelters and make
-                them available for adoption here.
-                Come join us for afternoon tea and meet
-                some "fur-ends" - you might even take
-                one
-            </p>
-        </div>
-        <div id="right-side">
-            <!--Inserting image from URL-->
-            <!-- <img src="https://cdn.pixabay.com/photo/2017/05/31/16/24/cat-2360863_960_720.jpg" alt="cute cat posing"> -->
-            <!--Inserting image from local path-->
-            <img src="/assets/index_cat_cafe.jpg" alt="cute cat posing">
-        </div>
-    </div>
-    <footer>
-        <p>Email: happycatcafe@gmail.com</p>
-        <button>Twitter</button>
-        <button>Instagram</button>
-    </footer>
 </body>
 </html>

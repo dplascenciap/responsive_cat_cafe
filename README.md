@@ -5,7 +5,11 @@ This is an attempt to create a responsive website which main template can be
 found at:
 https://www.figma.com/file/k305a2s5Jlu73FGOPsM8UX/Responsive-Happy-Cat-Cafe?node-id=0%3A1
 
-This website should be displayed in both a PC a mobile screen.
+This website should be displayed in a PC. a tablet, and a mobile screen.
+The following breakouts will be used:
+Desktop: 1920px - 1268px
+Tablet : 834px - 1194px
+Phone  : 360px
 
 Refer below to some common breakpoints for widths of devices:
 
